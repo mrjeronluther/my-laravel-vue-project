@@ -22,7 +22,6 @@ interface Contact {
 
 // Props: expects an array of Contact objects as 'contacts' for initial rendering and reactivity.
 const props = defineProps<{ contacts: Contact[] }>();
-
 // UI States
 const isEntryModalOpen = ref(false);   
 const isDetailModalOpen = ref(false);  
